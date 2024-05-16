@@ -1,0 +1,101 @@
+/* --- "CAMPER CAFE" MENU --- */
+
+/* --- MAIN --- */
+
+h1, h2, p {
+    text-align: center;
+} /* Style <h1>, <h2>, and <p> by centering them using a "type selector". The same group of styles can also be added to many elements by creating a list of type selectors, as shown above. */
+
+h1, h2 {
+    font-family: Impact, serif;
+} /* Style <h1> and <h2> by defining the font family and fallback font used (the fallback font is displayed in instances where the initial font is unavailable). */
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+} /* Style <h1> by i) setting its font size to 40px, ii) setting its top margin to 0px (the browser has some default top margin for <h1>, and this margin is removed to make the top and bottom spacings uniform), and iii) setting its bottom margin to 15px (to remove some space between <h1> and the "Est. 2020" text). */
+
+h2 {
+    font-size: 30px;
+} /* Style <h2> by setting its font size to 30px. */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+} /* Style <img> by i) displaying it as a "block" element, ii-iii) setting its left and right margins to "auto" to center it, and iv) setting its top margin to -25px to pull it closer to the <h2>s. */
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+} /* Style <hr> by i) setting its height to 2px (the default value for a property named "border-width" is 1px for all edges of <hr>, so setting "height" to 2px makes the total height for <hr> 4px) and ii-iii) setting its background and border colors to "brown". */
+
+.established {
+    font-style: italic;
+} /* Style elements with the "established" class by setting their font style to italic. */
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+} /* Style <body> by i) setting a background image, ii) defining the font family used, and iii) adding a 20px padding on all sides. */
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+} /* Style elements with the "menu" class by i) setting their width to 80% of their parent elements (i.e., the elements they are nested in), ii) setting their max wdith to 500px to prevent the menu from spreading out too far on very wide screens, iii) setting their background color to "burlywood", iv-v) setting their left and right margins to "auto" to center them, and vi) adding a 20px padding on all sides. */
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+} /* Style all <p>s nested inside elements with the "item" class by i) displaying them as "inline-block", not block-level, elements (inline-block elements only take up the width of their contents). Also, ii-iii) add a 5px margin on the top and bottom sides to reduce the gaps between lines and iv) set the font size to 18px. */
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+} /* Style elements with the "flavor" and "dessert" classes by i) left-aligning their texts and ii) setting the widths of their content to 75% of their parent elements (elements with the "flavor" cass are coffee flavors and have significantly more characters, so they need to take up a larger percentage of the page). */
+
+.price {
+    text-align: right;
+    width: 25%;
+} /* Style elements with the "price" class by i) right-aligning their texts and ii) setting the widths of their content to 25% of their parent elements (elements with the "price" cass are coffee prices and have significantly fewer characters, so they need to take up a smaller percentage of the page). */
+
+
+.bottom-line {
+    margin-top: 25px;
+} /* Style elements with the "bottom-line" class by adding a 25px margin on the top side (this is done to avoid the last line and the second <hr> on the menu to become too squished together). */
+
+/* --- FOOTER --- */
+
+footer {
+    font-size: 15px;
+} /* Style <footer> by setting its font size to 15px. */
+
+a {
+    color: black
+} /* Style <a> by setting its color to "black". */
+
+a:visited {
+    color: black;
+} /* Style <a> by setting its color to "black" after it has been visited. */
+
+a:hover {
+    color: brown;
+} /* Style <a> by setting its color to "brown" when a user hovers over it. */
+
+a:active {
+    color: brown;
+} /* Style <a> by setting its color to "white" when a user clicks on it. */
+
+.address {
+    margin-bottom: 5px;
+} /* Style elements with the "address" class by setting the bottom margin to 5px (again, to make the top and bottom spacings uniform; see line 16). */
