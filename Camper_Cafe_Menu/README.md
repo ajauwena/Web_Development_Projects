@@ -1,3 +1,3 @@
-# Building a Cafe Menu
+# Camper Cafe Menu
 
 TBA.
