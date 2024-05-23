@@ -1,3 +1,3 @@
 # Camper Cafe Menu
 
-Description to be added.
+Full description to be added.
