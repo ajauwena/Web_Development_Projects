@@ -1,0 +1,28 @@
+/* Target <h1> and center-align it. */
+h1 {
+    text-align: center;
+}
+
+/* Target the "marker" class and set its background color to red, its height to 25px, its width to 200px, the top and bottom margins to 10px, and the left and right margins to auto. */
+.marker {
+    height: 25px;
+    width: 200px;
+    margin: 10px auto; /* When the shorthand "margin" property has two values, it sets "margin-top" and "margin-bottom" to the first value, and "margin-left" and "margin-right" to the second value. */
+}
+
+/* Target the "one" class and set its background color to red. */
+.one {
+    background-color: red;
+}
+
+/* Target the "two" class and set its background color to green. */
+.two {
+    background-color: green;
+}
+
+/* Target the "three" class and set its background color to blue. */
+.three {
+    background-color: blue;
+}
+
+/* [Add] */
