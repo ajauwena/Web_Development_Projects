@@ -1,3 +1,5 @@
+/* COLORED MARKERS */
+
 /* Target <h1> and set its alignment to "center" and its background color to cyan. */
 h1 {
     text-align: center;
@@ -17,19 +19,38 @@ h1 {
     margin: 10px auto;
 }
 
+/* Target the "cap" class and set its width to 60px and its height to 25px. */
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+/* Target the "sleeve" class and set its width to 100px and its height to 25px. */
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75); /* The syntax of the "border-left" property is "border-left: width style color;". The border color is explicitly mentioned for better readability. */
+}
+
+/* Target the "cap" and "sleeve" classes and display them as inline-block elements. */
+.cap, .sleeve {
+    display: inline-block;
+}
+
 /* Target the "red" class and set its background color to red. */
 .red {
-    background-color: #EF0000;
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: -5px -5px red; /* The syntax of the "box-shadow" property is "box-shadow: offsetX offsetY blurRadius color;". The "blurRadius" value is optional. */
 }
 
 /* Target the "green" class and set its background color to green. */
 .green {
-    background-color: #00DF00;
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 5px 5px 5px green;
 }
 
 /* Target the "blue" class and set its background color to blue. */
 .blue {
-    background-color: #0000DF;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
 }
-
-/* [Add] */
